@@ -1,0 +1,16 @@
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main > section{
+    width: 50%;
+    /* border: 1px solid black; */
+}
+
+main > section > article{
+    border: 1px solid black;
+    height: auto;
+    min-height: 400px;
+    overflow: hidden;
+}
